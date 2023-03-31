@@ -10,10 +10,10 @@
             
         }
         body{
-            padding:0px 0px 43px 40px;
+            padding:0px 0px 8vw 40px;
             width:92vw;
             background-color:hsl(36, 100%, 99%);
-           height:100vh;
+           /* height:100vh; */
         } 
         /* Styles for the header */
         header{
@@ -243,7 +243,8 @@ width: 66vw;
 position: fixed;
 left: 50px;
 height: 734px;
-width: 52vw;
+/* width: 52vw; */
+width:50%;
 line-height: 50px;
 padding: 4.5vw;
 background-color: hsl(36, 100%, 99%);
@@ -261,8 +262,7 @@ cursor: pointer;
 @media screen and (max-width:1200px){
         body{
           width:100%;
-            padding:0px 0px 43px 40px;
-           height:120vh;
+          height:180vw;
         } 
         /* Styles for the header */
         header{
@@ -334,7 +334,7 @@ transform: translate(-200px);
   width:80vw;
   margin-top: 30px;
     width:87vw;
-  height: 42vw;
+  height: 54vw;
   margin-left: 0px;
 }
 .item-c {
@@ -392,8 +392,9 @@ transform: translate(-200px);
 
   body{
     justify-content: center;
-   height: 230vh;
     padding-left: 0px;
+     padding-left: 0px;
+    height:300vw;
   }
   
     /* Menu bar image */
@@ -446,15 +447,16 @@ transform: translate(0px);
 }
 
 
-
    .item-b > ul  .child {
             margin-top: 25px;
           font-weight: 800; 
           opacity:1;
           font-size: 1.863rem;
+          
         }
          .item-b > ul li {
             line-height: 30px;
+
             }
 .item-e, .item-f, .item-g {
   height: 20vw;
@@ -487,7 +489,7 @@ button {
 }
 .item-b{
   margin-top: 0px;
- height: 96vw;
+ height: 66vw;
 }
  .item-c{
   font-size: 3.1rem;
@@ -516,6 +518,7 @@ display: none;
 .item-f{
   margin-left: 0px;
 }
+
 
   .container {
        /* New */
@@ -552,10 +555,12 @@ display: none;
   opacity: 0.6;
   display: none;
 }
+main{
+  padding-bottom: 10vw;
+}
   body{
     justify-content: center;
-   height: 180vh;
-    padding-left: 0px;
+   height:350vw;
   } 
    br{
     display: block;
@@ -615,6 +620,7 @@ button {
 }
 .item-b{
   margin-left: 0px;
+  height: 88vw;
 }
  .item-b > ul  .child {
           font-size: 1.463rem;

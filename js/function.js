@@ -1,7 +1,9 @@
 
        window.onresize = screen
      window.onload = screen
-      function screen() {
+function screen() {
+  myWidth = window.innerWidth;
+        document.getElementById("sze").textContent = `${myWidth} px`
         if((myWidth === 500)&&(myWidth <= 600)){
 menuClose.style.transform = "translate(122px)"
 
