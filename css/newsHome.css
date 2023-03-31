@@ -1,0 +1,671 @@
+
+
+
+   @import url(https://fonts.google.com/specimen/Inter);
+
+        * {
+            padding:0;
+            margin:0;
+            box-sizing : border-box;
+            
+        }
+        body{
+            padding:0px 0px 43px 40px;
+            width:92vw;
+            background-color:hsl(36, 100%, 99%);
+           height:100vh;
+        } 
+        /* Styles for the header */
+        header{
+            width: 92vw;
+        }
+   /* Styles the nav in the header section */
+        nav {
+             width:100%;
+            display:flex;
+        }
+        li{
+          list-style-type:none;
+        }
+              /* The "W" LOGO ON THE LEFT HANDSIDE OF THE HEADER*/
+      nav > ul:first-child{
+          float:left;
+          width: 69%;
+          padding-left: 0px;
+        padding-top: 20px;}
+   /* styles for the unordered list floating on the right handside of the header */
+        nav > ul:first-child + ul {
+           margin-left:-80px;
+            padding-top:35px;
+            float:right;
+            display:flex;
+            width:33vw;
+            margin-left: 60px;
+            margin-right: 20px;
+        }
+        
+        /* styles for the unordered list > link floating on the right handside of the header*/
+            nav > ul:first-child + ul > li > a {
+              cursor: pointer;
+                text-decoration: none;
+                padding: 20px;
+                font-size: 1.125rem;
+            }
+            /*Styles the nav link not fourth child */
+              nav  a:visited:not(.trending){
+            color:black;
+            }
+             /*Styles the nav link for the current page */
+               .trending:visited {
+            color: hsl(5, 85%, 63%);
+            }
+                    /* Grid parent  */
+              .container {
+              row-gap: 10px;
+              grid-template-columns: 35% auto 30%;
+              grid-template-rows:58% auto auto ;
+                /* width: 1440px;  */
+                width:93vw;
+                /* margin-left: 48px; */
+                margin-left: 1vw;
+                height: 600px;
+                display: grid;
+                margin-bottom: 30px;
+              grid-template-areas:
+                  "a a b"
+                  "c d b"
+                  "e f g"
+                  ;
+              }
+
+        /* Grid parent first child */
+        .item-a {
+        background-image: url(../assets/image-web-3-desktop.jpg);
+          grid-area: a;
+         background-size: cover;
+         background-repeat: no-repeat;
+           /* width: 996px; */
+width: 66vw;
+        }
+        /* Grid parent second child  */
+        .item-b {
+          background-color: hsl(240, 100%, 5%);
+          height: 480px;
+          width:24vw;
+          padding:30px 20px;
+          margin-left: 34px;
+        }
+          /* Item-b header */
+          .item-b > h1 {
+          color:hsl(35, 77%, 62%);
+          }
+     
+            .item-b > ul li {
+            color:  hsl(36, 100%, 99%);
+            line-height: 20px;
+            font-weight: 400;
+            opacity:0.7;
+            }
+          /* styles for item-b ul first childs */
+          .item-b > ul  .child {
+            margin-top: 25px;
+          font-weight: 800; 
+          opacity:1;
+          font-size: 1.563rem;
+          transition-duration: 0.3s;
+          transition-timing-function: linear;
+          }
+
+        /* style for first child in item-b */
+        .item-b > ul  .Zero {
+          margin-top: 45px;
+          height: 43px;
+        }
+        /* style for secomd child in item-b */
+        .item-b > ul  .One {
+          height: 25px;
+        }
+
+        /* ..one child */
+        .itemBOneChild{
+          display:none;
+        }
+        /* images the las grid box*/
+        .itemBTwoChild{
+          display:none;
+        }
+
+      /* style for button in grid item-d */
+      button{
+        position: relative;
+        top: 50px;
+        right: 165px;
+        color:hsl(36, 100%, 99%);
+        border: none;
+        letter-spacing: 3px;
+        padding: 12px 24px;
+        background-color: hsl(5, 79%, 53%);
+        opacity: 0.8;
+      }
+      button:hover{
+        background-color: hsl(5, 89%, 41%);
+        color: white;
+      }
+
+      /* styles for item-b ul first childs on hover */
+      .item-b > ul  .child:hover {
+      color:hsl(35, 77%, 62%);
+      cursor: pointer;
+      }
+      /* styles for item-b .hr */
+      .hr{
+        margin-top: 25px;
+        border-bottom: 1px solid white;
+      }
+      /* Grid parent third child  */
+      .item-c {
+        background-color:  hsl(36, 100%, 99%);
+        grid-area: c;
+        height: 200px;
+        width: 498px;
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 50px;
+        padding-top: 5px;
+        width:30vw;
+
+      }
+      /* Grid parent fourth child  */
+      .item-d {
+        background-color:  hsl(36, 100%, 99%);
+        grid-area: d;
+        
+        font-weight: 400;
+        width: 498px;
+        height: 200px;
+        font-size: 1.2rem;
+        width:30vw;
+        color: rgb(64, 62, 62);
+        padding: 1px;
+      
+      }
+
+      .item-e, .item-f, .item-g{
+         background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+         height: 100px;
+      width: 30vw;
+        display: flex;
+        background-color:hsl(36, 100%, 99%);
+      }
+      /* Grid parent fifth child  */
+      .item-e {
+        z-index: -1;
+        background-image: url(../assets/image-retro-pcs.jpg);
+       background-color:hsl(36, 100%, 99%);
+        grid-area: e;
+      }
+      /* styles for the t.hree last grid child "e f g */
+      .three-last-grid {
+        margin-left: 85px;
+      }
+      .three-last-grid li:not(li:nth-child(2)){
+      font-size: 1.2rem;
+      opacity: 0.5;
+      
+      }
+      .three-last-grid li:nth-child(2){
+        font-size: 1.4rem;
+      font-weight: 800;
+      }
+
+      /* Grid parent sixth child  */
+      .item-f {
+        z-index: -1;
+        margin-left: 22px;
+        background-image: url(../assets/image-top-laptops.jpg );
+        grid-area: f;
+        padding-left:20px;
+      }
+      /* Grid parent seventh child  */
+      .item-g {
+         z-index: -1;
+        background-image: url(../assets/image-gaming-growth.jpg);
+        grid-area: g;
+        width: 359px;
+        height:100px;
+      }
+
+
+/* Menu bar contents */
+.menu-content {
+position: fixed;
+left: 50px;
+height: 734px;
+width: 52vw;
+line-height: 50px;
+padding: 4.5vw;
+background-color: hsl(36, 100%, 99%);
+margin-left:2000px;
+cursor: pointer; 
+
+}
+
+
+/* menu bar links */
+.menu-content a{
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+@media screen and (max-width:1200px){
+        body{
+          width:100%;
+            padding:0px 0px 43px 40px;
+           height:120vh;
+        } 
+        /* Styles for the header */
+        header{
+          margin-left: 0px;
+            width:88vw;
+             padding-right: 40px;
+        }
+   /* Styles the nav in the header section */
+        nav {
+            width:88vw;
+            padding-right: 0px;
+        }
+        li{
+          list-style-type:none;
+        }
+              /* The "W" LOGO ON THE LEFT HANDSIDE OF THE HEADER*/
+      nav > ul:first-child{
+          padding-left: 10px;
+      }
+   /* styles for the unordered list floating on the right handside of the header */
+        nav > ul:first-child + ul {
+            margin-left:-80px;
+            position: relative;
+            top: 0.5vw; 
+            right:10px;
+            margin-right: 0px;
+            width: 33vw;
+
+        }
+     
+        /* styles for the unordered list > link floating on the right handside of the header*/
+            nav > ul:first-child + ul > li > a {
+                padding: 10px;
+                font-size: 1.1rem;
+            }
+         
+                    /* Grid parent  */
+              .container {
+    gap:0px;
+    width: 92vw; 
+    margin-left: 2vw; 
+       /* Grid layout*/
+              grid-template-areas:
+                  "a a a"
+                  "d d d"
+                  "c c e"
+                  "f f g"
+                 "b b b"
+                  ;
+
+              }
+               .item-b , .item-c , .item-d, .item-e, .item-f, .item-g {
+ width: 73vw;
+  justify-content: center;
+  display: block;
+}
+
+
+  .item-c , .item-e, .item-f, .item-g {
+width: 36vw;
+ }
+ .item-e , .item-g{
+transform: translate(-200px);
+ }
+.item-a{
+  width:87vw
+}
+.item-b{
+  width:80vw;
+  margin-top: 30px;
+    width:87vw;
+  height: 42vw;
+  margin-left: 0px;
+}
+.item-c {
+    margin-left:-7px;
+    font-size: 2rem;
+    padding-top: 10px;
+  }
+
+  .item-d {
+    margin-left:-3px;
+  width:80vw;
+  padding: 20px;
+  }
+
+
+   .item-f{
+    margin-left: 0px;
+  }
+  
+
+  br{
+    display: none;
+  }
+  button {
+  padding:2vw 3vw;
+  margin-left: 190px;
+  
+} 
+
+
+}
+@media screen and (max-width:800px){
+
+  br{
+    display: none;
+  }
+    header{
+      width: 93vw;
+      padding: 0px;
+      margin: auto;
+      margin-left: 14px;
+
+    }
+      nav{
+    width: 93vw;
+  }
+.background-change{
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  height: 230vh;
+  opacity: 0.6;
+  display: none;
+}
+
+  body{
+    justify-content: center;
+   height: 230vh;
+    padding-left: 0px;
+  }
+  
+    /* Menu bar image */
+    .menu-logo{
+    background-image: url(../assets/icon-menu.svg);
+    background-repeat: no-repeat;
+    height:40px;
+    width: 10vw;
+    position: relative;
+    top: 4.5vw; 
+    left: 23.5vw;
+    }
+
+/* Menu bar contents */
+.menu-content {
+margin: 0px;
+transform: translate(1000px);
+}
+/* menu bar close button */
+.menu-Close{
+     padding-bottom: 50px;
+     transform: translate(120px);
+     transition-duration: 0.5s;
+     transition-timing-function: linear;
+     
+   }
+nav > ul:first-child  {
+     padding-left: 0px;
+     margin-left: -3px;
+     padding-bottom: 25px;
+        }
+
+   nav > ul:first-child + ul {
+       display:none;
+        }
+ /* new */
+  
+  .item-c , .item-e, .item-f, .item-g {
+width: 33vw;
+ }
+ .item-e , .item-g{
+transform: translate(0px);
+ }
+/* new */
+
+.item-a, .item-b , .item-c , .item-d, .item-e, .item-f, .item-g {
+ width: 93vw;
+  font-size: 1.7rem;
+   margin-left: 0px;
+}
+
+
+
+   .item-b > ul  .child {
+            margin-top: 25px;
+          font-weight: 800; 
+          opacity:1;
+          font-size: 1.863rem;
+        }
+         .item-b > ul li {
+            line-height: 30px;
+            }
+.item-e, .item-f, .item-g {
+  height: 20vw;
+  padding-left: 60px;
+ margin-top: 10px;
+}
+ 
+  /* styles for the t.hree last grid child "e f g */
+      
+  
+      .three-last-grid li:not(li:nth-child(2)){
+      font-size: 1.5rem;
+      opacity: 0.7;
+      
+      }
+      .three-last-grid li:nth-child(2){
+        font-size: 1.8rem;
+      font-weight: 800;
+      }
+
+button {
+  padding:2vw 3vw;
+  margin-left: 170px;
+  
+}
+.item-a{
+   height: 69.9vw;
+  background-image: url(../assets/image-web-3-mobile.jpg);
+  object-fit: cover;
+}
+.item-b{
+  margin-top: 0px;
+ height: 96vw;
+}
+ .item-c{
+  font-size: 3.1rem;
+   padding-left: 0px;
+   padding-top: -50px;
+   width: 95vw;
+
+ }
+
+  .item-c > span::after{
+content: "Web";
+ }
+  .item-c > span ~ span{
+display: none;
+ }
+.item-d{
+  padding-top: 0px;
+  margin-top: -30px;
+  height:28vh;
+  padding-left: 0px;
+    margin-left:0px;
+
+
+    
+}
+.item-f{
+  margin-left: 0px;
+}
+
+  .container {
+       /* New */
+    grid-template-areas:
+                  "a a a"
+                  "c c c"
+                  "d d d"
+                  "b b b"
+                  "e e e"
+                  "f f f"
+                  "g g g"
+                  ;
+  }
+/* menu bar links */
+.menu-content a{
+  font-size: 1.8rem;
+  color:hsl(36, 100%, 99%);
+}
+}
+
+
+ @media screen and (max-width:600px) {
+    header{
+      width: 93vw;
+      padding: 0px;
+    }
+  nav{
+    width: 93vw;
+  }
+.background-change{
+  width: 100%;
+  position: absolute;
+  height: 230vh;
+  opacity: 0.6;
+  display: none;
+}
+  body{
+    justify-content: center;
+   height: 180vh;
+    padding-left: 0px;
+  } 
+   br{
+    display: block;
+  }
+  
+    /* Menu bar image */
+    .menu-logo{
+    background-image: url(../assets/icon-menu.svg);
+    background-repeat: no-repeat;
+    height:20px;
+    width: 10vw;
+    position: relative;
+    top: 6.5vw; 
+    left: 21vw;
+    }
+
+/* Menu bar contents */
+.menu-content {
+margin: 0px;
+transform: translate(600px);
+}
+/* menu bar close button */
+.menu-Close{
+     padding-bottom: 60px;
+     transform: translate(-5px);
+     transition-duration: 0.5s;
+     transition-timing-function: linear;
+     
+   }
+nav > ul:first-child  {
+     padding-left: 0px;
+     margin-left: -3px;
+     padding-bottom: 25px;
+        }
+
+   nav > ul:first-child + ul {
+       display:none;
+        }
+ 
+.item-a, .item-b , .item-c , .item-d, .item-e, .item-f, .item-g {
+ width: 93vw;
+  font-size: 1.1rem;
+}
+.item-e, .item-f, .item-g {
+  height: 20vw;
+  padding: 15px;
+ margin-top: 10px;
+}
+button {
+  padding:1vw 2vw;
+  margin-left: 15px;
+}
+.item-a{
+   height: 69.9vw;
+  background-image: url(../assets/image-web-3-mobile.jpg);
+  object-fit: cover;
+}
+.item-b{
+  margin-left: 0px;
+}
+ .item-b > ul  .child {
+          font-size: 1.463rem;
+         
+        }
+ .item-c{
+  font-size: 2.1rem;
+   padding-left: 0px;
+   line-height: 40px;
+   margin-left:0px;
+ }
+
+  .item-c > span::after{
+content: "Web";
+ }
+  .item-c > span ~ span{
+display: none;
+ }
+
+.item-f{
+  margin-left: 0px;
+}
+  /* styles for the t.hree last grid child "e f g */
+      .three-last-grid {
+        margin-left: 85px;
+      }
+      .three-last-grid li:not(li:nth-child(2)){
+      font-size: 1.2rem;
+      opacity: 0.5;
+      
+      }
+      .three-last-grid li:nth-child(2){
+        font-size: 1.4rem;
+      font-weight: 800;
+      }
+  .container {
+       /* New */
+    grid-template-areas:
+      "a a a"
+      "c c c"
+     "d d d"
+     "b b b"
+     "e e e"
+    "f f f"
+    "g g g"
+          ;
+  }
+  /* menu bar links */
+.menu-content a{
+  font-size: 1.5rem;
+}
+
+}
+ 
