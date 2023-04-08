@@ -359,7 +359,6 @@ transform: translate(-200px);
    .item-f{
     margin-left: 0px;
     padding-left:0px;
-     z-index: 1;
      width: 36vw; 
   }
   
@@ -595,7 +594,7 @@ display: none;
 .menu-content {
 margin: 0px;
 transform: translate(600px);
-width: 70%;
+width: 400px;
 }
 /* menu bar close button */
 .menu-Close{
