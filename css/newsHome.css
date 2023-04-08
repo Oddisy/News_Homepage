@@ -13,7 +13,7 @@
             padding:0px 0px 8vw 40px;
             width:92vw;
             background-color:hsl(36, 100%, 99%);
-           /* height:100vh; */
+           height:800px;
         } 
         /* Styles for the header */
         header{
@@ -82,14 +82,14 @@
           grid-area: a;
          background-size: cover;
          background-repeat: no-repeat;
-           /* width: 996px; */
-width: 66vw;
+           height:100%;
+/* width: 66vw; */
+width:100%;
         }
         /* Grid parent second child  */
         .item-b {
           background-color: hsl(240, 100%, 5%);
           height: 480px;
-          width:24vw;
           padding:30px 20px;
           margin-left: 34px;
         }
@@ -189,7 +189,6 @@ width: 66vw;
 
       .item-e, .item-f, .item-g{
          background-position: left;
-         
         background-repeat: no-repeat;
         background-size: contain;
          height: 100px;
@@ -221,7 +220,6 @@ width: 66vw;
       /* Grid parent sixth child  */
       .item-f {
         z-index: -1;
-        margin-left: 22px;
         background-image: url(../assets/image-top-laptops.jpg );
         grid-area: f;
         padding-left:20px;
@@ -233,6 +231,7 @@ width: 66vw;
         grid-area: g;
         width: 359px;
         height:100px;
+        margin-left:33px;
       }
 
 
@@ -257,9 +256,9 @@ cursor: pointer;
   font-size: 1.5rem;
   text-decoration: none;
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:1250px){
         body{
-          width:100%;
+          width:72vw;
           height:1435px;
         } 
         /* Styles for the header */
@@ -313,21 +312,20 @@ cursor: pointer;
                   ;
 
               }
-               .item-b , .item-c , .item-d, .item-e, .item-f, .item-g {
- width: 73vw;
+                .item-c , .item-d, .item-e, .item-f, .item-g {
+ width: 60vw;
   justify-content: center;
   display: block;
 }
 
-
-  .item-c , .item-e, .item-f, .item-g {
-width:370px;
- }
  .item-e , .item-g{
 transform: translate(-200px);
+margin-left: 0%;
+width: 36vw; 
  }
 .item-a{
-  width:87vw
+  /* width:87vw */
+  width:100%;
 }
 .item-b{
   width:80vw;
@@ -335,6 +333,8 @@ transform: translate(-200px);
     width:87vw;
   height:400px;
   margin-left: 0px;
+   justify-content: center;
+  display: block;
 }
 .item-b > ul  .child {
             margin-top: 25px;
@@ -353,15 +353,19 @@ transform: translate(-200px);
   .item-d {
     margin-left:-3px;
   width:80vw;
-  padding: 20px;
+  padding: 23px;
+
   }
+
 
 
    .item-f{
-    margin-left: 0px;
     padding-left:0px;
      width: 36vw; 
   }
+  
+   
+  
   
 
   
@@ -377,7 +381,7 @@ transform: translate(-200px);
 
 
 } 
-@media screen and (max-width:800px){
+@media screen and (max-width:857px){
 
   br{
     display: none;
@@ -405,7 +409,9 @@ transform: translate(-200px);
     justify-content: center;
     padding-left: 0px;
      padding-left: 0px;
-    height:1700px;
+    height:1800px;
+    width:72vw;
+    
   }
   
     /* Menu bar image */
@@ -454,7 +460,7 @@ transform: translate(0px);
 /* new */
 
 .item-a, .item-b , .item-c , .item-d, .item-e, .item-f, .item-g {
- width: 1500px;
+ width: 93vw;
   font-size: 1.7rem;
    margin-left: 0px;
 }
@@ -477,6 +483,8 @@ height:100px;
   margin-bottom: 20px;
  margin-top: 10px;
 }
+
+
  
   /* styles for the t.hree last grid child "e f g */
       
@@ -498,8 +506,9 @@ button {
   
 }
 .item-a{
-   height: 69.9vw;
+   /* height: 69.9vw; */
   background-image: url(../assets/image-web-3-mobile.jpg);
+  /* background-size: contain; */
   object-fit: cover;
 }
 .item-b{
@@ -529,9 +538,6 @@ display: none;
 
 
     
-}
-.item-f{
-  margin-left: 0px;
 }
 
 
@@ -615,7 +621,6 @@ nav > ul:first-child  {
         }
  
 .item-a, .item-b , .item-c , .item-d, .item-e, .item-f, .item-g {
-
   font-size: 1.1rem;
 }
 .item-e, .item-f, .item-g {
@@ -655,9 +660,6 @@ content: "Web";
 display: none;
  }
 
-.item-f{
-  margin-left: 0px;
-}
   /* styles for the t.hree last grid child "e f g */
       .three-last-grid {
         margin-left: 85px;
