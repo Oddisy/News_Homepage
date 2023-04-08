@@ -597,12 +597,12 @@ display: none;
 .menu-content {
 margin: 0px;
 transform: translate(600px);
-width: 700px;
+width: 500px;
 }
 /* menu bar close button */
 .menu-Close{
      padding-bottom: 60px;
-     transform: translate(-5px);
+     transform: translate(35px);
      transition-duration: 0.5s;
      transition-timing-function: linear;
      

@@ -73,8 +73,9 @@
 // @media queries
 
 menuLogo.onclick = () => {
+  
     menuContent.style.visibility = "visible"
-menuContent.style.transform = "translate(250px)"
+menuContent.style.transform = "translate(100px)"
 menuContent.style.transitionDuration = "0.4s";
 backGroundChange.style.display = "block"
 menuClose.style.marginLeft= "-20px"
