@@ -3,7 +3,7 @@
      window.onload = screen
 function screen() {
   myWidth = window.innerWidth;
-        if((myWidth <= 600){
+        if(myWidth <= 600){
 menuClose.style.transform = "translate(122px)"
 
         }
