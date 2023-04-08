@@ -241,7 +241,8 @@ width: 66vw;
 position: fixed;
 left: 50px;
 height: 734px;
-width: 52vw;
+/* width: 52vw; */
+width: 1500px;
 line-height: 50px;
 padding: 4.5vw;
 background-color: hsl(36, 100%, 99%);
@@ -422,7 +423,8 @@ transform: translate(-200px);
 .menu-content {
 margin: 0px;
 transform: translate(1000px);
-width: 70%;
+width: 700px;
+ z-index: 2;
 }
 /* menu bar close button */
 .menu-Close{
@@ -495,6 +497,7 @@ height:100px;
 button {
   padding:2vw 3vw;
   margin-left: 170px;
+ 
   
 }
 .item-a{
@@ -594,7 +597,7 @@ display: none;
 .menu-content {
 margin: 0px;
 transform: translate(600px);
-width: 400px;
+width: 700px;
 }
 /* menu bar close button */
 .menu-Close{
