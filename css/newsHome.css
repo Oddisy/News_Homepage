@@ -619,9 +619,9 @@ nav > ul:first-child  {
   font-size: 1.1rem;
 }
 .item-e, .item-f, .item-g {
-  height: 20vw;
   padding: 15px;
  margin-top: 10px;
+ margin-bottom: 20px;
 }
 button {
   padding:1vw 2vw;
