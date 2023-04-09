@@ -324,11 +324,10 @@ margin-left: 0%;
 width: 36vw; 
  }
 .item-a{
-  /* width:87vw */
-  width:100%;
+  width:87vw
 }
 .item-b{
-  width:80vw;
+  width:87vw;
   margin-top: 30px;
     width:87vw;
   height:400px;
