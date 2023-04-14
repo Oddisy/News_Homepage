@@ -1,23 +1,5 @@
 
-//        window.onresize = screen
-// window.onload = screen
-// function screen() {
-//   myWidth = window.innerWidth;              , 
-  
-//         if((myWidth === 500)&&(myWidth <= 600)){
-// menuClose.style.transform = "translate(122px)"
 
-//         }
-//         else if (myWidth += 10){
-//        menuClose.style.transform = "translate(149px)"
-//         }
-//           else if (myWidth -= 10){
-//        menuClose.style.transform = "translate(133px)"
-//         }
-//             else if((myWidth >= 601)&&(myWidth <= 900)){
-// menuClose.style.transform = "translate(182px)"
-//         }
-//       }
       // variables
       let itemB = document.getElementById('itemB'),
       menuLogo = document.getElementById('menuLogo'),

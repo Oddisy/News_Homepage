@@ -18,6 +18,7 @@
         /* Styles for the header */
         header{
             width: 92vw;
+            margin-bottom: 50px;
         }
    /* Styles the nav in the header section */
         nav {
@@ -83,8 +84,7 @@
          background-size: cover;
          background-repeat: no-repeat;
            height:100%;
-/* width: 66vw; */
-width:100%;
+        width:100%;
         }
         /* Grid parent second child  */
         .item-b {
@@ -356,19 +356,11 @@ width: 36vw;
 
   }
 
-
-
    .item-f{
     padding-left:0px;
      width: 36vw; 
   }
   
-   
-  
-  
-
-  
-
   br{
     display: none;
   }
@@ -377,7 +369,6 @@ width: 36vw;
   margin-left: 190px;
   
 } 
-
 
 } 
 @media screen and (max-width:857px){
@@ -464,7 +455,6 @@ transform: translate(0px);
    margin-left: 0px;
 }
 
-
    .item-b > ul  .child {
             margin-top: 25px;
           font-weight: 800; 
@@ -483,11 +473,8 @@ height:100px;
  margin-top: 10px;
 }
 
-
- 
   /* styles for the t.hree last grid child "e f g */
       
-  
       .three-last-grid li:not(li:nth-child(2)){
       font-size: 1.5rem;
       opacity: 0.7;
@@ -505,9 +492,7 @@ button {
   
 }
 .item-a{
-   /* height: 69.9vw; */
   background-image: url(../assets/image-web-3-mobile.jpg);
-  /* background-size: contain; */
   object-fit: cover;
 }
 .item-b{
@@ -519,7 +504,6 @@ button {
    padding-left: 0px;
    padding-top: -50px;
    width: 95vw;
-
  }
 
   .item-c > span::after{
@@ -534,11 +518,7 @@ display: none;
   height:28vh;
   padding-left: 0px;
     margin-left:0px;
-
-
-    
 }
-
 
   .container {
        /* New */
