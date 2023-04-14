@@ -67,7 +67,7 @@ I want to have more concrete knowledge on css grid and responsiveness.
 ## Author
 
 - Website - [Odunayo](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Oddisy)
-- Twitter - [@yourusername](https://www.twitter.com/Oddissy2)
+- Frontend Mentor - [@Oddisy](https://www.frontendmentor.io/profile/Oddisy)
+- Twitter - [@oddissy](https://www.twitter.com/Oddissy2)
 
 
