@@ -11,7 +11,7 @@
         }
         body{
             background-color:hsl(36, 100%, 99%);
-           height:860px;
+            height:860px;
         } 
         /* Styles for the header */
         header{
@@ -51,8 +51,6 @@
                 text-decoration: none;
                 padding:.9rem;
                 font-size: 0.9rem;
-                background-color:aqua;
-                
             }
             /*Styles the nav link not fourth child */
               nav  a:visited:not(.trending){
@@ -79,13 +77,13 @@
 
         /* Grid parent first child */
         .item-a {
-        background-image: url(../assets/image-web-3-desktop.jpg);
-          grid-area: a;
-         background-size: cover;
-         object-fit: contain;
-         background-repeat: no-repeat;
+           background-image: url(../assets/image-web-3-desktop.jpg);
+           grid-area: a;
+           background-size: cover;
+           object-fit: contain;
+           background-repeat: no-repeat;
            height:270px;
-        width:89%;
+           width:89%;
         }
         /* Grid parent second child  */
         .item-b {
@@ -120,7 +118,7 @@
         /* style for first child in item-b */
         .item-b > ul  .Zero {
           margin-top: 25px;
-         height: 25px;
+          height: 25px;
         }
         /* style for secomd child in item-b */
         .item-b > ul  .One {
