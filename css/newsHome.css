@@ -33,7 +33,7 @@
               /* The "W" LOGO ON THE LEFT HANDSIDE OF THE HEADER*/
       nav > ul:first-child{
           float:left;
-          width: 47%;
+          width: 55%;
           padding-left: 0px;
         padding-top: 20px;
     }
@@ -50,7 +50,7 @@
             nav > ul:first-child + ul > li > a {
               cursor: pointer;
                 text-decoration: none;
-                padding:.9rem;
+                padding:.2rem;
                 font-size: 0.9rem;
             }
             /*Styles the nav link not fourth child */
@@ -91,7 +91,7 @@
           background-color: hsl(240, 100%, 5%);
           height: 420px;
           padding:30px 20px;
-          margin-left: -60px;
+          margin-left: -40px;
           width:280px;
           word-spacing: 0px;
         }
@@ -141,7 +141,7 @@
         font-family: inherit;
         position: relative;
         top: 45px;
-        right: 120px;
+        right: 127px;
         color:hsl(36, 100%, 99%);
         border: none;
         letter-spacing: 3px;
@@ -240,7 +240,7 @@
         grid-area: g;
         width: 328px;
         height:100px;
-        margin-left:-60px;
+        margin-left:-40px;
       }
 
 
@@ -390,15 +390,11 @@ width: 36vw;
     display: none;
   }
     header{
-      /* width: 93vw; */
       padding: 0px;
       margin: auto;
       margin-left: 14px;
-
     }
-      nav{
-    /* width: 93vw; */
-  }
+  
 .background-change{
   background-color: black;
   width: 100%;
@@ -422,10 +418,10 @@ width: 36vw;
     background-image: url(../assets/icon-menu.svg);
     background-repeat: no-repeat;
     height:40px;
-    width: 10vw;
+    width:40px;
     position: relative;
     top: 4.5vw; 
-    left: 10.5vw;
+    left: 6.2vw;
     }
 
 /* Menu bar contents */
@@ -452,7 +448,6 @@ nav > ul:first-child  {
    nav > ul:first-child + ul {
        display:none;
         }
- /* new */
   
   .item-c  {
 width:370px; 
@@ -466,7 +461,7 @@ transform: translate(0px);
  }
 /* new */
 
-.item-a, .item-b , .item-c , .item-d, .item-e, .item-f, .item-g {
+.item-a, .item-b , .item-d, .item-e, .item-f, .item-g {
  width: 93vw;
   font-size: 1.1rem;
    margin-left: 0px;
@@ -505,13 +500,14 @@ height:100px;
 
 button {
   padding:2vw 3vw;
-  margin-left: 150px;
+  margin-left: 120px;
  
   
 }
 .item-a{
   background-image: url(../assets/image-web-3-mobile.jpg);
   object-fit: cover;
+  height:30.5rem;;
 }
 .item-b{
   margin-top: 0px;
@@ -522,6 +518,7 @@ button {
    padding-left: 0px;
    padding-top: -50px;
    width: 95vw;
+   margin-left:0px;
  }
 
   .item-c > span::after{
@@ -550,6 +547,7 @@ display: none;
                   "g g g"
                   ;
   }
+  
 /* menu bar links */
 .menu-content a{
   font-size: 1.8rem;
@@ -583,10 +581,8 @@ display: none;
     background-image: url(../assets/icon-menu.svg);
     background-repeat: no-repeat;
     height:20px;
-    width: 10vw;
     position: relative;
     top: 6.5vw; 
-     left: 7vw;;
     }
 
 /* Menu bar contents */
@@ -618,17 +614,17 @@ nav > ul:first-child  {
 }
 .item-e, .item-f, .item-g {
   padding:0px 15px 15px;
-
  margin-bottom: 20px;
 }
 button {
   padding:1vw 2vw;
-  margin-left:0px;
+  margin-left:-30px;
 }
 .item-a{
-   height: 69.9vw;
   background-image: url(../assets/image-web-3-mobile.jpg);
   object-fit: cover;
+  height:auto;
+
 }
 .item-b{
   margin-left: 0px;
@@ -645,6 +641,7 @@ button {
    line-height: 40px;
    margin-left:0px;
    height: 200px;
+   width:30.5rem;
  }
 
   .item-c > span::after{
