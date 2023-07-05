@@ -33,7 +33,7 @@
               /* The "W" LOGO ON THE LEFT HANDSIDE OF THE HEADER*/
       nav > ul:first-child{
           float:left;
-          width: 55%;
+          width: 47%;
           padding-left: 0px;
         padding-top: 20px;
     }
@@ -50,7 +50,7 @@
             nav > ul:first-child + ul > li > a {
               cursor: pointer;
                 text-decoration: none;
-                padding:.2rem;
+                padding:.9rem;
                 font-size: 0.9rem;
             }
             /*Styles the nav link not fourth child */
@@ -91,7 +91,7 @@
           background-color: hsl(240, 100%, 5%);
           height: 420px;
           padding:30px 20px;
-          margin-left: -40px;
+          margin-left: -60px;
           width:280px;
           word-spacing: 0px;
         }
@@ -240,7 +240,7 @@
         grid-area: g;
         width: 328px;
         height:100px;
-        margin-left:-40px;
+        margin-left:-60px;
       }
 
 
