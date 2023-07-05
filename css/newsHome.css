@@ -33,7 +33,7 @@
               /* The "W" LOGO ON THE LEFT HANDSIDE OF THE HEADER*/
       nav > ul:first-child{
           float:left;
-          width: 47%;
+          width: 60%;
           padding-left: 0px;
         padding-top: 20px;
     }
@@ -43,7 +43,6 @@
             padding-top:35px;
             display:flex;
             width: auto;
-           
         }
         
         /* styles for the unordered list > link floating on the right handside of the header*/
@@ -60,16 +59,16 @@
           
                     /* Grid parent  */
               .container {
-              row-gap: 10px;
-              grid-template-columns: 28% auto 30%;
-              grid-template-rows:46% auto auto ;
+                row-gap: 10px;
+                grid-template-columns: 28% auto 30%;
+                grid-template-rows:46% auto auto ;
                 width: 75vw;
                 margin-left:auto;
                 margin-right: auto;
                 height: 600px;
                 display: grid;
                 margin-bottom: 30px;
-              grid-template-areas:
+                grid-template-areas:
                   "a a b"
                   "c d b"
                   "e f g"
