@@ -33,7 +33,7 @@
               /* The "W" LOGO ON THE LEFT HANDSIDE OF THE HEADER*/
       nav > ul:first-child{
           float:left;
-          width: 60%;
+          width: 47%;
           padding-left: 0px;
         padding-top: 20px;
     }
@@ -51,6 +51,8 @@
                 text-decoration: none;
                 padding:.9rem;
                 font-size: 0.9rem;
+                background-color:aqua;
+                
             }
             /*Styles the nav link not fourth child */
               nav  a:visited:not(.trending){
