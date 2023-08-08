@@ -12,6 +12,7 @@
         body{
             background-color:hsl(36, 100%, 99%);
             height:860px;
+            padding:0px auto;
         } 
         /* Styles for the header */
         header{
@@ -241,7 +242,7 @@
         height:100px;
         margin-left:-60px;
       }
-
+ 
 
 /* Menu bar contents */
 .menu-content {
@@ -407,7 +408,7 @@ width: 36vw;
     justify-content: center;
     padding-left: 0px;
      padding-left: 0px;
-    height:1590px;
+    height:1700px;
     width:72vw;
     
   }
@@ -464,6 +465,7 @@ transform: translate(0px);
  width: 93vw;
   font-size: 1.1rem;
    margin-left: 0px;
+   margin-left: 0px ;
 }
 
    .item-b > ul  .child {
@@ -569,7 +571,8 @@ display: none;
 
   body{
     justify-content: center;
-   height:1700px;
+   max-height:1700px;
+
   } 
    br{
     display: block;
@@ -588,7 +591,6 @@ display: none;
 .menu-content {
 margin: 0px;
 transform: translate(600px);
-width: 500px;
 }
 /* menu bar close button */
 .menu-Close{
@@ -617,7 +619,7 @@ nav > ul:first-child  {
 }
 button {
   padding:1vw 2vw;
-  margin-left:-30px;
+  margin-left:-20px;
 }
 .item-a{
   background-image: url(../assets/image-web-3-mobile.jpg);
@@ -640,7 +642,6 @@ button {
    line-height: 40px;
    margin-left:0px;
    height: 200px;
-   width:30.5rem;
  }
 
   .item-c > span::after{
